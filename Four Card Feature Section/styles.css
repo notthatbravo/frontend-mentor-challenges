@@ -62,7 +62,6 @@ h1 {
     text-align: left;
     overflow: hidden;
     width: 80%;
-    height: 200px;
     background-color: #fff;
     color: black;
 }
@@ -133,7 +132,7 @@ a {
         width: 100%;
     }
     .card {
-        margin: 2% 0 ;
+        margin: 2% 0;
     }
     .card::before{
         width: inherit;
