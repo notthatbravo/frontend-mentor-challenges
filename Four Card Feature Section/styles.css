@@ -19,15 +19,14 @@ body {
     background-color :var(--lgray);
 }
 button {
-    float: none;
     margin: 0;
+    border: 1em;
     border-radius: 10px;
-    width: 10%;
+    width: 11%;
+    text-align: left;
     font-weight: 400;
     font-size: 110%;
     cursor: pointer;
-    outline: none;
-    border: none;
     background-color: var(--lgray);
 }
 
@@ -52,15 +51,17 @@ h1 {
     font-size: 80%;
     margin: 1% 25%;
 }
-.cyan_card, .middle_card, .blue_card {
+.left, .middle, .right {
     float: left;
     width: 33.33%;
+    display: grid; /*THE LAST TWO LINES CENTERS THE CARDS DIRECTLY IN THE MIDDLE OF THE SCREEN. THANK ME LATER! XD *(GRINS)* */
+    place-items: center;
 }
 .card {
     box-shadow: 0 0 4px 0 var(--gblue);
     text-align: left;
     overflow: hidden;
-    width: 400px;
+    width: 80%;
     height: 200px;
     background-color: #fff;
     color: black;
@@ -69,8 +70,8 @@ h1 {
     clear: both;
     content: " ";
     position: absolute;
-    width: 400px;
-    height: 2px;
+    width: 24.3em;
+    height: 0.2em;
 }
 
 .card h1 {
@@ -85,19 +86,10 @@ h1 {
     margin:2% 10% 0;
 }
 
-.cyan_card {
-    margin: 10% 0 0 2%;
-}
-.middle_card {
-    margin: 0 0 0 4%;
-}
-.red_card {
-    /*Nothing worthy of attention here! (Smiles)*/
+.cyan_card, .blue_card {
+    margin: 30% 0;
 }
 .orange_card {
-    margin-top: 10%;
-}
-.blue_card {
     margin-top: 10%;
 }
 .cyan_card::before{
@@ -130,31 +122,21 @@ a {
     background-color: black;
     color: var(--orange);
 }
+
+
 @media (max-width:800px) {
     button {
-        width: 20%;
+        width: 25%;
         font-size: 80%;
     }
-    .cyan_card, .middle_card, .blue_card {
+    .left, .middle, .right {
         width: 100%;
     }
     .card {
-        width: 400px;
-        height: 200px;
+        margin: 2% 0 ;
     }
-    .cyan_card {
-        margin: 2% 10% 0;
-    }
-    .middle_card {
-        margin: 3% 0 0 10%;
-    }
-    .red_card {
-        /*Nothing worthy of attention here! (Smiles)*/
-    }
-    .orange_card {
-        margin-top: 3%;
-    }
-    .blue_card {
-        margin: 3% 10%;
+    .card::before{
+        width: inherit;
+        height: 0.2em;
     }
 }
