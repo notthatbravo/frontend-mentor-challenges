@@ -1,5 +1,5 @@
 ## Intro:
-#### A Collection of Solutions to Coding Challenges from [Frontend Mentor] [frontendmentor]
+#### A Collection of Solutions to Coding Challenges from [Frontend Mentor][frontendmentor]
 #### Below are links to hosted sites for the various solutions
 #### Feel free to offer suggestions and criticisms ☺
 #### You can Connect with me on various social media platforms: 
