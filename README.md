@@ -1,4 +1,5 @@
 ## Intro:
+<<<<<<< HEAD
 A Collection of Solutions to Coding Challenges from [Frontend Mentor][frontendmentor]
 
 Below are links to hosted sites for the various solutions
@@ -13,6 +14,15 @@ Connect with me on various social media platforms:
 
 You can also [Donate][donate] to get me a premium subscription to Frontend Mentor for more thrilling challenges and solutions
 
+=======
+#### A Collection of Solutions to Coding Challenges from [Frontend Mentor][frontendmentor]
+#### Below are links to hosted sites for the various solutions
+#### Feel free to offer suggestions and criticisms ☺
+#### You can Connect with me on various social media platforms: 
+- [Twitter][twitter], 
+- [Whatsapp][whatsapp], 
+- [Email][email],
+- [Dream World][dreamworld]
 
 ## Hosted Sites:
 - [Chat App CSS Illustration][chat app]
