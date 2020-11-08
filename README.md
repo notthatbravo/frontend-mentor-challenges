@@ -12,7 +12,7 @@ Connect with me on various social media platforms:
 ###### - [Email][email],
 ###### - [Dream World][dreamworld]
 
-You can also [Donate][donate] to get me a premium subscription to Frontend Mentor for more thrilling challenges and solutions
+Click [here][donate] if you want to dash me money!
 
 ## Hosted Sites:
 - [Chat App CSS Illustration][chat app]
