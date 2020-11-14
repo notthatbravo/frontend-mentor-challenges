@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Spartan", sans-serif;
+}
+:root {
+	--dark-magneta: hsl(300, 43%, 22%);
+	--pink: hsl(333, 80%, 67%);
+	--dark-grayish-magneta: hsl(303, 10%, 53%);
+	--light-grayish-magneta: hsl(300, 24%, 96%);
+}
+
+.background-images img {
+	position: absolute;
+	z-index: -1;
+}
+.top-desktop,
+.top-mobile {
+	left: 0;
+	top: 0;
+}
+.bottom-desktop,
+.bottom-mobile {
+	right: 0;
+	top: 40%;
+}
+.top-mobile,
+.bottom-mobile {
+	display: none;
+}
+
+
+
+.top {
+	display: flex;
+}
+
+.left {
+	flex: 40%;
+	padding: 10%;
+	padding-bottom: 0;
+}
+.left h1 {
+	color: var(--dark-magneta);
+	font-size: 3.1em;
+	font-weight: 700;
+}
+.left h3 {
+	margin: 3% 0;
+	color: var(--dark-grayish-magneta);
+}
+
+.right {
+	flex: 60%;
+	padding: 10% 5% 0;
+}
+.right .rated {
+	padding: 1em;
+	padding-bottom: 0;
+	margin-bottom: 5%;
+	width: 67%;
+	height: 2.5em;
+	border-radius: 10px;
+	background-color: var(--light-grayish-magneta);
+}
+.rated img {
+	padding: 0.2em;
+}
+.rated h3 {
+	margin-top: 1%;
+	float: right;
+	color: var(--dark-magneta);
+	font-size: 90%;
+}
+
+.row-two {
+	margin-left: 10%;
+}
+.row-three {
+	margin-left: 20%;
+}
+
+
+.customer-reviews {
+	display: flex;
+	padding: 0 10%;
+	margin-top: 5%;
+}
+
+.column {
+	flex: 33.33%;
+	height: 10em;
+	padding: 5%;
+	margin: 0 2%;
+	border-radius: 10px;
+	background-color: var(--dark-magneta);
+}
+.column img {
+	margin-right: 5%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	float: left;
+}
+.column h3 {
+	margin-top: 4%;
+	color: white;
+}
+.column h4 {
+	color: var(--pink);
+}
+.column p {
+	margin-top: 10%;
+	color: white;
+	font-size: 0.8em;
+	font-weight: 500;
+}
+.column-one {
+	margin-left: 0;
+}
+.column-two {
+	margin-top: 5%;
+}
+.column-three {
+	margin-top: 10%;
+}
+footer {
+	margin: 5% 0 0;
+	text-align: center;
+}
+
+footer a {
+	color: var(--dark-magneta);
+}
+
+@media (max-width: 800px) {
+	.top-desktop,
+	.bottom-desktop {
+		display: none;
+	}
+	.top-mobile,
+	.bottom-mobile {
+		display: block;
+	}
+	.top {
+		display: block;
+	}
+	.right {
+		padding: 0 10%;
+	}
+	.right .rated {
+		width: auto;
+		height: 4em;
+		margin: 5% 0;
+		text-align: center;
+	}
+	.rated img {
+		float: none;
+		margin: 0;
+	}
+	.rated h3 {
+		margin: 0;
+		float: none;
+	}
+	.customer-reviews {
+		display: block;
+	}
+	.column {
+		margin: 5% 0;
+	}
+	footer {
+		padding: 0 10%;
+	}
+}

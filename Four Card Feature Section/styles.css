@@ -1,0 +1,141 @@
+:root {
+    --blue: hsl(212, 86%, 64%);
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --dblue: hsl(234, 12%, 34%);
+    --gblue: hsl(229, 6%, 66%);
+    --lgray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+} 
+body {
+    background-color :var(--lgray);
+}
+button {
+    margin: 0;
+    border: 1em;
+    border-radius: 10px;
+    width: 11%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 110%;
+    cursor: pointer;
+    background-color: var(--lgray);
+}
+
+.container {
+    text-align: center;
+    padding: 1% 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+h2 {
+    font-size: 190%;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 180%;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 80%;
+    margin: 1% 25%;
+}
+.left, .middle, .right {
+    float: left;
+    width: 33.33%;
+    display: grid; /*THE LAST TWO LINES CENTERS THE CARDS DIRECTLY IN THE MIDDLE OF THE SCREEN. THANK ME LATER! XD *(GRINS)* */
+    place-items: center;
+}
+.card {
+    box-shadow: 0 0 4px 0 var(--gblue);
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    background-color: #fff;
+    color: black;
+}
+.card::before{
+    clear: both;
+    content: " ";
+    position: absolute;
+    width: 24.3em;
+    height: 0.2em;
+}
+
+.card h1 {
+    font-size: 120%;
+    padding: 5% 0 3% 5%;
+}
+.card p {
+    padding: 0 0 3% 5%;
+}
+.card img {
+    float: right;
+    margin:2% 10% 0;
+}
+
+.cyan_card, .blue_card {
+    margin: 30% 0;
+}
+.orange_card {
+    margin-top: 10%;
+}
+.cyan_card::before{
+    background-color: var(--cyan);
+}
+.red_card::before{
+    background-color: var(--red);
+}
+.orange_card::before{
+    background-color: var(--orange);
+}
+.blue_card::before{
+    background-color: var(--blue);
+}
+footer {
+    text-align: center;
+    overflow:hidden;
+}
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+/*DARK MODE FOR WEBSITE*/
+.dark_mode {
+    background-color: black;
+    color: white;
+}
+.dark_mode_btn {
+    background-color: black;
+    color: var(--orange);
+}
+
+
+@media (max-width:800px) {
+    button {
+        width: 30%;
+        font-size: 80%;
+    }
+    .left, .middle, .right {
+        width: 100%;
+    }
+    .card {
+        margin: 2% 0;
+    }
+    .card::before{
+        width: inherit;
+        height: 0.2em;
+    }
+}

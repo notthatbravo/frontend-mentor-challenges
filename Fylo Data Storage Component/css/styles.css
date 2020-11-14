@@ -1,0 +1,148 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+:root {
+	--gradient: linear-gradient(hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	--pale-blue: hsl(243, 100%, 93%);
+	--grayish-blue: hsl(229, 7%, 55%);
+	--dark-blue: hsl(228, 56%, 26%);
+	--very-dark-blue: hsl(229, 57%, 11%);
+
+}
+
+body {
+	color: white;
+	background-color: var(--very-dark-blue);
+	background-image: url("../img/bg-desktop.png");
+	background-size: 200%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.container {
+	display: flex;
+	padding: 20% 10% 5%;
+}
+.left,
+.right {
+	padding: 5% 5% 0;
+	border-radius: 10px;
+	background-color: var(--dark-blue);
+}
+.left {
+	flex: 40%;
+	margin: 0 5% 0 0;
+	border-top-right-radius: 10em;
+}
+.left .logo {
+	display: block;
+}
+.left span {
+	display: inline-grid;
+	place-items: center;
+	margin: 10% 5%;
+	padding: 5%;
+	border-radius: 10px;
+	background-color: var(--very-dark-blue);
+}
+.left span.document {
+	margin-left: 0;
+}
+
+
+.right {
+	flex: 60%;
+}
+
+.balance {
+	height: 2em;
+	padding: 5%;
+	border-radius: 10px;
+	color: var(--grayish-blue);
+	background-color: white;
+}
+
+div.balance-pc {
+	float: right;
+	margin: -20% 0 0;
+	border-bottom-right-radius: 0px;
+}
+h1 {
+	display: inline;
+	color: var(--very-dark-blue);
+	font-size: 2em;
+}
+
+.container-div {
+	width: 100%;
+	height: 1em;
+	margin: 5% 0 2%;
+	border-radius: 10px;
+	background-color: var(--very-dark-blue);
+}
+.bg-gradient {
+	width: 81.5%;
+	height: 1em;
+	border-radius: 10px;
+	background-image: var(--gradient);
+}
+.circle {
+	margin: 1px 1px 0 0;
+	width: 0.8em;
+	height: 0.8em;
+	border-radius: 50px;
+	background-color: white;
+	float: right;
+}
+.float-text-right {
+	float: right;
+}
+.float-text-left {
+	float: left;
+}
+.balance-mobile {
+	display: none;
+}
+
+@media (max-width: 991px) {
+	body {
+		background-image: url("../img/bg-mobile.png");
+	}
+	.container {
+		display: block;
+		padding: 10%;
+	}
+	.left,
+	.right {
+		width: auto;
+		margin: 0;
+	}
+	.right {
+		height: 8em;
+		margin-top: 10%;
+		padding: 10%;
+		text-align: center;
+	}
+	.balance-pc {
+		display: none;
+	}
+	.balance-mobile {
+		display: block;
+		position: absolute;
+		margin: 5% 0 0 15%;
+		text-align:center;
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 600px) {
+	.balance-mobile {
+		display: block;
+		position: absolute;
+		margin: 15% 0 0 15%;
+		font-size: 1em;
+	}
+}
