@@ -1,0 +1,440 @@
+/*Universal Styling*/
+
+:root {
+	--main-background: hsl(218, 28%, 13%);
+	--footer-background: hsl(216, 53%, 9%);
+	--testimonials-background: hsl(219, 30%, 18%);
+	--sign-up-background: hsl(217, 28%, 15%);
+	--cyan-gradient: hsl(176, 68%, 64%);
+	--blue-gradient: hsl(198, 60%, 50%);
+	--error: hsl(0, 100%, 63%);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+body {
+	color: white;
+	background-color: var(--main-background);
+}
+
+ul {
+	list-style: none;
+}
+
+.flex {
+	display: flex;
+	flex-flow: wrap;
+}
+
+button {
+	width: 25%;
+	height: 3em;
+	margin: 2% auto 0;
+	border: none;
+	border-radius: 2em;
+	color: white;
+	background-color: var(--blue-gradient);
+	font-size: 1.4em;
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.5s ease-in-out;
+}
+
+button:hover {
+	background-color: var(--cyan-gradient);
+}
+
+/*Universal Styling Ends*/
+
+
+
+nav {
+	padding: 2% 5%;
+	overflow: hidden;
+}
+
+nav img {
+	float: left;
+}
+
+nav ul {
+	display: flex;
+	float: right;
+	width: 20%;
+}
+
+nav ul li {
+	flex: 33.33%;
+	font-size: 1.2em;
+	text-align: center;
+	cursor: pointer;
+}
+
+nav ul li:hover {
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.container {
+	background-image: url("img/bg-curvy-desktop.svg");
+	background-size: 200%;
+	background-position: center;
+	background-repeat: no-repeat;	 
+}
+
+
+.sections { /*What the five sections have in common*/
+	padding: 5%;
+	overflow: hidden;
+}
+
+
+
+.first-section {
+	text-align: center;
+}
+
+.first-section img {
+	width: 50%;
+}
+
+.first-section h1 {
+	margin: 5% 15% 2%;
+	font-size: 3em;
+}
+
+.first-section p {
+	margin: 0 25%;
+	font-size: 1.4em;
+}
+
+
+
+.second-section {
+	text-align: center;
+}
+
+.second-section .column {
+	flex: 50%;
+	padding: 5%;
+}
+
+.second-section .column h2 {
+	margin: 3% 0;
+	font-size: 1.4em;
+}
+
+.second-section .column p {
+	font-size: 1.2em;
+}
+
+
+
+.third-section img {
+	float: left;
+	margin-right: 5%; 
+}
+
+.third-section h1 {
+	margin: 8% 15% 0 0;
+	font-size: 2.7em;
+}
+
+.third-section p {
+	margin: 2% 0;
+	font-size: 1.4em;
+}
+
+.third-section span {
+	width: max-content;
+	font-size: 1.4em;
+	color: var(--cyan-gradient);
+	cursor: pointer;
+}
+
+.third-section span p {
+	float: left;
+	margin: 0 1% 0 0;
+	font-size: inherit; /*Removes the styling from the ".third-section p"*/
+	text-decoration: underline;
+	text-decoration-color: var(--cyan-gradient);
+}
+
+.third-section span img {
+	width: 2%;
+	margin-top: 0.3%;
+}
+
+
+
+.fourth-section {
+	background-image: url("img/bg-quotes.png");
+	background-repeat: no-repeat;
+	background-position-x: 5%;
+	background-position-y: 10%;
+}
+
+.fourth-section .column {
+	flex: 25%;
+	padding: 2%;
+	margin: 0 2%;
+	border-radius: 5px;
+	background-color: var(--testimonials-background);
+	box-shadow: 
+}
+
+.fourth-section .column p {
+	font-size: 1.2em;
+}
+
+.fourth-section .column img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin: 5% 5% 0 0;
+}
+
+.fourth-section .column h2 {
+	margin-top: 8%;
+	font-size: 1em;
+}
+
+.fourth-section .column h3 {
+	font-size: 0.8em;
+	opacity: 60%;
+}
+
+
+
+.fifth-section {
+	position: absolute;
+	z-index: 1;
+	width: 60%;
+	margin: 5% auto 0 20%;
+	border-radius: 5px;
+	box-shadow: 0 0 2px 0 black;
+	text-align: center;
+	background-color: var(--main-background);
+}
+
+.fifth-section h1 {
+	margin: 0 0 3%;
+	font-size: 2.5em;
+}
+
+.fifth-section p {
+	font-size: 1.3em;
+}
+
+.fifth-section input {
+	width: 60%;
+	height: 3em;
+	padding: 0 5%;
+	margin: 5% 5% 0 0;
+	border: none;
+	border-radius: 5em;
+}
+
+.fifth-section button {
+	width: 30%;
+	font-size: 1.2em;
+}
+
+
+
+footer {
+	padding: 15% 5% 5%;
+	margin: 20% 0 0;
+	background-color: var(--footer-background);
+	overflow: hidden;
+}
+
+footer .flex {
+	margin: 5% 0 0;
+}
+
+footer .flex .column {
+	flex: 20%;
+}
+
+footer .flex .column ul li {
+	display: block;
+	margin: 0 0 5%;
+	overflow: hidden;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+footer .flex .column ul li:hover {
+	font-weight: bolder;
+}
+
+footer img[alt = "icon"] {
+	float: left;
+	margin: 0 5% 0 0;
+}
+
+footer .flex .column-one img[alt = "icon"] {
+	margin-bottom: 20%;
+}
+
+footer .social-media-links-column {
+	padding-top: 2%;
+}
+
+footer .social-media-links-column a {
+	flex: 33.33%;
+	padding: 5%;
+	margin: 5%;
+	border: 1px solid white;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+footer .social-media-links-column > a:hover {
+	border-color: var(--cyan-gradient);
+	color: var(--cyan-gradient);
+}
+
+footer .social-media-links-column > a i {
+	font-size: 1.2em;
+}
+
+
+footer > p { /*Credits*/
+	margin: 3% 0 0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+footer > p a {
+	font-size: 1.2em;
+	color: var(--cyan-gradient);
+}
+
+
+@media all and (max-width: 800px) {
+	.flex {
+		display: block;
+	}
+
+	.container {
+		background: none;
+	}
+
+	.first-section {
+		background-image: url("img/bg-curvy-mobile.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom center;
+	}
+
+	nav img {
+		width: 30%;
+	}
+	nav ul {
+		width: 50%;
+	}
+
+	button {
+		width: 80%;
+		margin: 5% 0;
+	}
+
+	.first-section img {
+		width: 100%;
+	}
+	.first-section h1 {
+		margin: 5% 0;
+		font-size: 2.3em;
+	}
+	.first-section p {
+		margin: 0;
+		font-size: 1.2em;
+	}
+
+	.third-section img {
+		float: none;
+		width: 100%;
+	}
+	.third-section h1 {
+		margin: 5% 0;
+		font-size: 1.5em;
+	}
+	.third-section p {
+		font-size: 1.2em;
+	}
+	.third-section span img {
+		width: 8%;
+	}
+
+	.fourth-section {
+		background-position-y: 0;
+	}
+	.fourth-section .column {
+		padding: 5%;
+		margin: 5% 0;
+	}
+
+
+	.fifth-section {
+		margin: 25% 5% 0;
+		width: 90%;
+	}
+	.fifth-section h1 {
+		font-size: 2em;
+	}
+	.fifth-section input,
+	.fifth-section button {
+		width: 100%;
+	}
+
+	footer {
+		margin-top: 80%;
+		padding-top: 60%;
+	}
+
+	footer .flex .column-one {
+		overflow: hidden;
+	}
+	footer .social-media-links-column {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	footer > p {
+		margin-top: 10%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.fifth-section {
+		margin-top: 10%;
+	}
+	footer {
+		padding-top: 40%;
+		margin-top: 40%;
+	}
+	footer .flex .column-one img[alt = "icon"] {
+		margin-bottom: 5%;
+	}
+}
+
+@media all and (max-width: 450px) { /*Extra Small Devices*/
+	nav img {
+		width: 30%;
+	}
+	nav ul {
+		width: 60%;
+	}
+}
