@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19a2ae;
+}
+
+section.profile-card {
+  width: 25%;
+  margin-top: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 0 #7a797a;
+  background-color: #fff;
+}
+section.profile-card div.background-image {
+  width: 100%;
+  height: 7em;
+  background: url("../img/bg-pattern-card.svg") #19a2ae center no-repeat;
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+section.profile-card div.img-name-location {
+  margin-top: -20%;
+  text-align: center;
+}
+section.profile-card div.img-name-location img {
+  width: 6em;
+  height: 6em;
+  margin: 5% 0;
+  border: 6px solid white;
+  border-radius: 6em;
+}
+section.profile-card div.img-name-location h1 {
+  margin: 2% 0;
+  color: #969696;
+  font-weight: 100;
+}
+section.profile-card div.img-name-location h1 b {
+  color: #2d3248;
+  font-weight: 700;
+}
+section.profile-card div.img-name-location p.location {
+  margin: 0 0 5%;
+  color: #969696;
+  font-size: 0.9em;
+}
+section.profile-card hr {
+  color: #969696;
+}
+section.profile-card div.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+  padding: 0 5%;
+  text-align: center;
+}
+section.profile-card div.social-media .column h2 {
+  color: #2d3248;
+}
+section.profile-card div.social-media .column p {
+  color: #969696;
+  font-size: 0.8em;
+}
+
+@media all and (max-width: 800px) {
+  section.profile-card {
+    width: 90%;
+    margin-top: 25%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
