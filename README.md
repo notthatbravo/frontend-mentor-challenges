@@ -20,6 +20,7 @@ Click [here][donate] if you want to dash me money!
 - [Fylo Data Storage Component][fylo data storage]
 - [Fylo Dark Theme Landing Page][fylo dark theme]
 - [Fylo Landing Page - Two-Column][fylo landing page]
+- [Profile Card][profile card]
 - [Social Proof Section][social proof]
 - and lots more... ***(P.S.: watch my space on [twitter][twitter])***
 
@@ -36,4 +37,5 @@ Click [here][donate] if you want to dash me money!
 [fylo data storage]: https://adevcalledbravo.github.io/Frontend_Mentor_Tasks/Fylo%20Data%20Storage%20Component/index.html
 [fylo landing page]: https://adevcalledbravo.github.io/Frontend_Mentor_Tasks/Fylo%20Landing%20Page%20-%20Two-column/index.html
 [fylo dark theme]: https://adevcalledbravo.github.io/Frontend_Mentor_Tasks/Fylo%20Dark%20Theme%20Landing%20Page/index.html
+[profile card]: https://adevcalledbravo.github.io/Frontend_Mentor_Tasks/Profile%20Card/index.html
 [social proof]: https://adevcalledbravo.github.io/Frontend_Mentor_Tasks/Social%20Proof%20Section/index.html
