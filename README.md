@@ -32,10 +32,10 @@ Click [here][donate] if you want to dash me money!
 [email]: mailto:adevcalledbravo@gmail.com
 [dreamworld]: https://127.0.0.1
 [donate]: https://dashboard.flutterwave.com/donate/mmwc1cohivbb
-[chat app]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Chat%20App%20Css%20Illustration/index.html
-[four cards]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Four%20Card%20Feature%20Section/index.html
-[fylo data storage]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Fylo%20Data%20Storage%20Component/index.html
-[fylo landing page]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Fylo%20Landing%20Page%20-%20Two-column/index.html
-[fylo dark theme]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Fylo%20Dark%20Theme%20Landing%20Page/index.html
-[profile card]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Profile%20Card/index.html
-[social proof]: https://zeroth-bravo.github.io/Frontend_Mentor_Tasks/Social%20Proof%20Section/index.html
+[chat app]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Chat%20App%20Css%20Illustration/index.html
+[four cards]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Four%20Card%20Feature%20Section/index.html
+[fylo data storage]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Fylo%20Data%20Storage%20Component/index.html
+[fylo landing page]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Fylo%20Landing%20Page%20-%20Two-column/index.html
+[fylo dark theme]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Fylo%20Dark%20Theme%20Landing%20Page/index.html
+[profile card]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Profile%20Card/index.html
+[social proof]: https://zeroth-bravo.github.io/frontend-mentor-challenges/Social%20Proof%20Section/index.html
