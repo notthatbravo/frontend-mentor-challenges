@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.sections {
+  padding: 5%;
+}
+
+.first-section {
+  position: relative;
+  height: 100vh;
+  color: white;
+  background: url("../img/bg-daytime.jpg") center no-repeat;
+  background-size: cover;
+}
+.first-section .quote {
+  width: 40%;
+}
+.first-section .quote p {
+  margin-bottom: 5%;
+}
+
+.greeting-time-info {
+  position: absolute;
+  bottom: 5%;
+  width: 95%;
+  letter-spacing: 0.25rem;
+}
+.greeting-time-info p {
+  margin-bottom: -2%;
+}
+.greeting-time-info h1 {
+  font-size: 10em;
+  letter-spacing: 0;
+}
+.greeting-time-info h1 span {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.greeting-time-info b {
+  margin-top: -2%;
+}
+.greeting-time-info .toggle-btn {
+  float: right;
+  width: 10%;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+.greeting-time-info .toggle-btn i {
+  font-size: 1.5em;
+  margin-left: 2%;
+}
+
+.second-section {
+  background: #c8c8c8;
+}
+.second-section .flex-container {
+  display: flex;
+}
+.second-section .flex-container .columns {
+  flex: 50%;
+}
+.second-section .flex-container .columns h2 {
+  margin: 5% 0 0;
+  color: #a09f9d;
+  font-size: 1.3em;
+  letter-spacing: 0.25em;
+}
+.second-section .flex-container .columns h1 {
+  font-size: 4em;
+}
+.second-section .flex-container .left-column {
+  border-right: 3px solid #d7dbde;
+}
+.second-section .flex-container .right-column {
+  padding-left: 5%;
+}
+
+@media (min-width: 767px) and (max-width: 919px) {
+  .first-section .quote {
+    width: 80%;
+  }
+  .first-section .greeting-time-info .toggle-btn {
+    float: none;
+    width: 20%;
+    margin-top: 5%;
+  }
+
+  .second-section .flex-container .columns h2 {
+    font-size: 1.2em;
+  }
+  .second-section .flex-container .columns h1 {
+    font-size: 2.4em;
+  }
+  .second-section .flex-container .left-column {
+    border: none;
+  }
+  .second-section .flex-container .right-column {
+    padding: 0;
+  }
+}
+@media (max-width: 800px) {
+  .first-section .quote {
+    width: 80%;
+  }
+  .first-section .greeting-time-info p span.hide-on-mobile-devices {
+    display: none;
+  }
+  .first-section .greeting-time-info h1 {
+    font-size: 7em;
+  }
+  .first-section .greeting-time-info .toggle-btn {
+    float: none;
+    width: 30%;
+    margin-top: 5%;
+  }
+
+  .second-section .flex-container {
+    display: block;
+  }
+  .second-section .flex-container .columns .container-to-flex-on-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .second-section .flex-container .columns h2 {
+    font-size: 1em;
+    letter-spacing: 0;
+  }
+  .second-section .flex-container .columns h1 {
+    font-size: 1.6em;
+  }
+  .second-section .flex-container .left-column {
+    border: none;
+  }
+  .second-section .flex-container .right-column {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Spartan", sans-serif;
+}
+
+p {
+  color: #a1a1a1;
+}
+
+header nav {
+  position: absolute;
+  width: 100%;
+  padding: 2.5% 5%;
+  background: transparent;
+}
+header nav img {
+  float: left;
+  margin-right: 5%;
+}
+header nav ul {
+  display: flex;
+  flex-flow: wrap;
+  width: 30%;
+  margin-left: 5%;
+  list-style: none;
+}
+header nav ul a {
+  flex: 20%;
+  color: #fff;
+  text-decoration: none;
+}
+
+section.hero div.slider-container {
+  overflow: hidden;
+}
+section.hero div.slider-container div.hero-image-container {
+  float: left;
+}
+section.hero div.slider-container h1 {
+  font-size: 3em;
+  padding: 10% 5% 0;
+  margin-left: 5%;
+}
+section.hero div.slider-container p {
+  margin: 5% 0;
+}
+section.hero div.slider-container div.shop-now {
+  margin-left: 5%;
+  letter-spacing: 1.5em;
+  cursor: pointer;
+  overflow: hidden;
+}
+section.hero div.slider-container div.shop-now:hover {
+  text-decoration: underline;
+}
+section.hero div.slider-container div.arrows-container {
+  width: 30%;
+  background-color: black;
+  overflow: hidden;
+}
+section.hero div.slider-container div.arrows-container img {
+  width: 2em;
+}
+
+.slider-container-2,
+.slider-container-3 {
+  display: none;
+}
+
+section.about {
+  display: flex;
+  flex-flow: wrap;
+}
+section.about div.column {
+  flex: 25%;
+}
+section.about div.column-two {
+  padding: 2% 1%;
+}
+section.about div.column-two h2 {
+  margin-bottom: 5%;
+  font-size: 1.3em;
+  letter-spacing: 0.6em;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,94 @@
+// Variable Declaration
+$bg-gradient-violet: hsl(273, 75%, 66%);
+$bg-gradient-blue: hsl(240, 73%, 65%);
+$heading-text-color: hsl(237, 12%, 33%);
+$content-text-color: hsl(240, 6%, 50%);
+$heading-text-color-active: hsl(238, 29%, 16%);
+$heading-text-color-hover: hsl(14, 88%, 65%);
+$line-divider-color: hsl(240, 5%, 91%);
+
+// Universal Styling
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+// Individual Styling Begins
+body {
+    position: relative;
+    height: 80vh;
+    background: linear-gradient(20deg, $bg-gradient-blue, $bg-gradient-violet);
+    background-repeat: no-repeat;
+}
+
+// White Container
+section.container {
+    width: 70%;
+    margin: 10% auto 0;
+    border-radius: 20px;
+    background-color: #fff;
+
+    // Using flex to create two columns
+    section.flex {
+        display: flex;
+
+        .column {
+            flex: 50%;
+        }
+
+        // The Illustration
+        .left-column {
+            padding: 5% 0;
+
+            // Hides the smaller image to show via media queries on mobile devices
+            .show-on-mobile {
+                display: none;
+            }
+        }
+
+        // The FAQs themselves
+        .right-column {
+            padding: 5%;
+            
+            h1 {
+                color: $heading-text-color-active;
+                font-size: 3em;
+            }
+
+            // Overall container for the Questions and Answers
+            div.questions-answers-container {
+                margin: 10% 0 5%;
+
+                // Container for the Question and Arrow Img
+                div.question-arrow-container {
+                    cursor: pointer;
+
+                    h2.question {
+                        display: inline;
+                        color: $heading-text-color;
+                        font-size: 1.3em;
+                        font-weight: 100;
+                        transition: 0.2s ease-in-out;
+                    }
+
+                    h2.question:hover {
+                        color: $heading-text-color-hover;
+                    }
+
+                    img {
+                        float: right;
+                    }
+                }
+
+                // The answer to display via javascript
+                p.answer {
+                    display: none;
+                    margin: 5% 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+$dark-gray: hsl(0, 0%, 63%);
+$very-dark-gray: hsl(0, 0%, 63%);
+
+// Universal Styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Spartan", sans-serif;
+}
+
+p {
+    color: $dark-gray;
+}
+
+
+// Navbar
+header {
+    nav {
+        position: absolute;
+        width: 100%;
+        padding: 2.5% 5%;
+        background: transparent;
+
+        // Logo
+        img {
+            float: left;
+            margin-right: 5%;
+        }
+
+        ul {
+            display: flex;
+            flex-flow: wrap;
+            width: 30%;
+            margin-left: 5%;
+            list-style: none;
+
+            a {
+                flex: 20%;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+// Hero Section
+section.hero {
+    div.slider-container {
+        overflow: hidden;
+
+        // Hero Image
+        div.hero-image-container{
+            float: left;
+        }
+
+        // heading, paragraph and shop-now
+        h1 {
+            font-size: 3em;
+            padding: 10% 5% 0;
+            margin-left: 5%;
+        }
+
+        p {
+            margin: 5% 0;
+        }
+
+        div.shop-now {
+            margin-left: 5%;
+            letter-spacing: 1.5em;
+            cursor: pointer;
+            overflow: hidden;
+        }
+
+        div.shop-now:hover {
+            text-decoration: underline;
+        }
+
+        div.arrows-container {
+            width: 30%;
+            background-color: black;
+            overflow: hidden;
+
+
+            img {
+                width: 2em;
+            }
+        }
+    }  // End of Slider Container
+}  // End of Hero
+
+.slider-container-2,
+.slider-container-3 {
+    display: none;
+}
+
+
+// About Our Furniture Section
+section.about {
+    display: flex;
+    flex-flow: wrap;
+
+    div.column {
+        flex: 25%;
+    }
+
+    // Column with text
+    div.column-two {
+        padding: 2% 1%;
+
+        h2 {
+            margin-bottom: 5%;
+            font-size: 1.3em;
+            letter-spacing: 0.6em;
+        }
+    }
+}

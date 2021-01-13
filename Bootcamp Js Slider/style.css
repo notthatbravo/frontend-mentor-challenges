@@ -1,0 +1,184 @@
+body {
+    overflow-y: hiddn;
+    margin: 0;
+}
+.container {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 80%;
+    box-shadow: 0 0 6px 0;
+    overflow: hidden;
+}
+.tanya {
+
+}
+.tanya #bg {
+    z-index: -2;
+    float: right;
+}
+.tanya #tanya_img {
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 0 gray;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.tanya #bottom_curve {
+    float: left;
+    width: 450px;
+    margin-top: 20%;
+    left: 0;
+}
+.tanya #quotes {
+    margin-top: 18%;
+    margin-left: 15%;
+}
+.tanya p {
+    font-size: 32px;
+    z-index: 3;
+    position: fixed;
+    margin-right: 45%;
+    margin-left: 5%;
+    top: 35%;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+
+}
+.tanya h2 {
+    font-size: 20px;
+    z-index: 3;
+    position: fixed;
+    margin-right: 45%;
+    left: 15%;
+    top: 72%;
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    display: inline;
+}
+.tanya h3 {
+    font-size: 15px;
+    z-index: 3;
+    position: fixed;
+    margin-right: 0%;
+    left:25%;
+    top: 73%;
+    font-family: 'Inter', serif;
+    font-weight: 300;
+    display: inline;
+    color: gray;
+}
+.tanya #prev {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 1px 0;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 42.8%;
+    top: 85%;
+    z-index:5;
+    outline: none;
+    cursor: pointer;
+}
+.tanya #next {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 1px 0;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 40.5%;
+    top: 85%;
+    z-index:5;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+.john #bg {
+    z-index: -2;
+    float: right;
+}
+.john #john_img {
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 0 gray;
+    margin-right: 15%;
+    margin-top: 25%;
+}
+.john #bottom_curve {
+    float: left;
+    width: 450px;
+    margin-top: 20%;
+    left: 0;
+}
+.john #quotes {
+    margin-top: 18%;
+    margin-left: 15%;
+}
+.john p {
+    font-size: 32px;
+    z-index: 3;
+    position: fixed;
+    margin-right: 45%;
+    margin-left: 5%;
+    top: 85%;
+    font-family: 'Inter', serif;
+    font-weight: 500;
+
+}
+.john h2 {
+    font-size: 20px;
+    z-index: 3;
+    position: absolute;
+    margin-right: 45%;
+    left: 15%;
+    top: 150%;
+    font-family: 'Inter', serif;
+    font-weight: 700;
+    display: inline;
+}
+.john h3 {
+    font-size: 15px;
+    z-index: 3;
+    position: fixed;
+    margin-right: 0%;
+    left:25%;
+    top: 73%;
+    font-family: 'Inter', serif;
+    font-weight: 300;
+    display: inline;
+    color: gray;
+}
+.john #prev {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 1px 0;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 43%;
+    top: 85%;
+    z-index:5;
+    outline: none;
+    cursor: pointer;
+}
+.john #next {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 1px 0;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 40.5%;
+    top: 85%;
+    z-index:5;
+    outline: none;
+    cursor: pointer;
+}

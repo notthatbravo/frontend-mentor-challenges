@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(20deg, #6565e7, #af67e9);
+  background-repeat: no-repeat;
+}
+
+section.container {
+  width: 70%;
+  margin: 10% auto 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+section.container section.flex {
+  display: flex;
+}
+section.container section.flex .column {
+  flex: 50%;
+}
+section.container section.flex .left-column {
+  padding: 5% 0;
+}
+section.container section.flex .left-column .show-on-mobile {
+  display: none;
+}
+section.container section.flex .right-column {
+  padding: 5%;
+}
+section.container section.flex .right-column h1 {
+  color: #1d1e35;
+  font-size: 3em;
+}
+section.container section.flex .right-column div.questions-answers-container {
+  margin: 10% 0 5%;
+}
+section.container section.flex .right-column div.questions-answers-container div.question-arrow-container {
+  cursor: pointer;
+}
+section.container section.flex .right-column div.questions-answers-container div.question-arrow-container h2.question {
+  display: inline;
+  color: #4a4b5e;
+  font-size: 1.3em;
+  font-weight: 100;
+  transition: 0.2s ease-in-out;
+}
+section.container section.flex .right-column div.questions-answers-container div.question-arrow-container h2.question:hover {
+  color: #f47c57;
+}
+section.container section.flex .right-column div.questions-answers-container div.question-arrow-container img {
+  float: right;
+}
+section.container section.flex .right-column div.questions-answers-container p.answer {
+  display: none;
+  margin: 5% 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
